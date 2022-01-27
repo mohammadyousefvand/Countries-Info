@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countrys Info</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="search-bar">
+            <input class="inputElem" type="text" placeholder="Enter your country">
+            <button class="search">Search</button>
+        </div>
+
+        <main class="default-Country">
+            <div class="country">
+                <div>
+                    <img class="flag">
+                    <h4 class="title"></h4>
+                </div>
+                <div class="section">
+                    <div class="ques">
+                        <p>region</p>
+                        <p>Capital</p>
+                        <p>population</p>
+                        <p>Currency</p>
+                        <p>languages</p>
+                    </div>
+                    <div class="answer">
+                        <p class="rigen"></p>
+                        <p class="capital"></p>
+                        <p class="population"></p>
+                        <p class="money"></p>
+                        <p class="language"></p>
+                    </div>
+                </div>
+                <div class="map">
+                    <a class="map-link" href="#" target="_blank">Google Map</a>
+                </div>
+            </div>
+        </main>
+        <div class="all-Countrys"></div>
+    </div>
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="public/js/country.js"></script>
+    <script src="public/js/app.js"></script>
+</body>
+
+</html>
